@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Events — Freshers' guide</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="site-header" role="banner">
+  <button class="hamburger" aria-label="Open navigation" aria-expanded="false" aria-controls="nav-drawer"><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></button>
+  <button class="theme-toggle" aria-label="Switch theme" aria-pressed="false">☀</button>
+</header>
+<div class="drawer-overlay" aria-hidden="true"></div>
+<aside class="drawer" id="nav-drawer" role="navigation" aria-label="Primary" aria-modal="false" aria-hidden="true" hidden>
+  <nav><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="events.html" class="active">Events</a></li><li><a href="faq.html">FAQ</a></li><li><a href="contact.html">Contact</a></li></ul></nav>
+</aside>
+
+<main class="events-section" role="main">
+  <h1 class="page-title">Events</h1>
+  <p style="max-width:640px;color:var(--text-secondary);">Workshops, contests, and social gatherings for first-year students.</p>
+
+  <div class="filters" role="group" aria-label="Filter events">
+    <button class="filter active" data-type="All">All</button>
+    <button class="filter" data-type="Workshop">Workshops</button>
+    <button class="filter" data-type="Contest">Contests</button>
+    <button class="filter" data-type="Social">Social</button>
+  </div>
+
+  <div id="next-event" style="margin: 48px 0 32px; padding-bottom: 32px; border-bottom: 1px solid var(--border);" aria-label="Next upcoming event"></div>
+  <div id="event-list"></div>
+</main>
+
+<footer class="site-footer" role="contentinfo"><p>Freshers' guide — student-run for first-year students. MIT licensed.</p></footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
