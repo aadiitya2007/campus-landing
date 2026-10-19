@@ -14,8 +14,6 @@ python -m http.server 8000
 
 Then open `http://localhost:8000/` in your browser.
 
-The live version is published with GitHub Pages from the `main` branch, so merged changes show up there within a couple of minutes.
-
 ## Adding an event
 
 Add an entry to `events.json`:
