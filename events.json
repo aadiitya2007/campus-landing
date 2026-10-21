@@ -62,5 +62,13 @@
         "time": "10:00",
         "place": "Innovation centre",
         "description": "Teams of up to four. Food provided."
+    },
+    {
+        "title": "Web Development & Open Source Bootcamp",
+        "type": "Workshop",
+        "date": "2026-11-21",
+        "time": "15:00",
+        "place": "Lab 002",
+        "description": "Hands-on session on building web applications and contributing to open-source projects."
     }
 ]
